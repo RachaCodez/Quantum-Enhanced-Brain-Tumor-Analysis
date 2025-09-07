@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environment folder
+# IMPORTANT: Change 'q-uq' if you named your environment something else.
+/q-uq/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Large data files
+data/
+
+# Saved models and outputs
+models/
+results/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
