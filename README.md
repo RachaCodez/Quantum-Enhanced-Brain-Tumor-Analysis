@@ -310,6 +310,6 @@ For questions, issues, or contributions:
 
 ---
 
-**Built with** ❤️ **using PyTorch, Qiskit, and MONAI**
+**Built with** ❤️ By Ruthvik and Team**
 
-**Demonstrating quantum advantage for medical AI since 2025** 🚀
+**Demonstrating quantum advantage for medical AI since 2025** 
