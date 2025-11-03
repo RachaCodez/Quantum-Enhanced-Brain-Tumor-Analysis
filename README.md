@@ -310,6 +310,6 @@ For questions, issues, or contributions:
 
 ---
 
-**Built with** ❤️ By Ruthvik and Team**
+**Built with ❤️ By Ruthvik and Team**
 
 **Demonstrating quantum advantage for medical AI since 2025** 
