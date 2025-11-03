@@ -55,8 +55,8 @@ O(N) complexity                   O(√N) complexity
 
 ```bash
 # Clone repository
-git clone https://github.com/[your-repo]/q-uq-brain-tumor
-cd q-uq-brain-tumor
+git clone https://github.com/RachaCodez/Quantum-Enhanced-Brain-Tumor-Analysis.git
+cd Quantum-Enhanced-Brain-Tumor-Analysis
 
 # Install dependencies
 pip install -r requirements.txt
@@ -258,7 +258,8 @@ If you use this work, please cite:
   title = {Quantum-Enhanced Interrogation of Generative Models for Brain Tumor Analysis},
   author = {[Your Name]},
   year = {2025},
-  url = {https://github.com/[your-repo]/q-uq-brain-tumor}
+  url = {https://github.com/RachaCodez/Quantum-Enhanced-Brain-Tumor-Analysis.git
+}
 }
 ```
 
