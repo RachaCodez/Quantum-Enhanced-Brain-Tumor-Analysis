@@ -1,22 +1,205 @@
-# Byte-compiled / optimized / C extensions
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Conda environment folder
-# IMPORTANT: Change 'q-uq' if you named your environment something else.
-/q-uq/
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+q-uq/
+*.conda
 
-# Jupyter Notebook Checkpoints
+# Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
 
 # Large data files
 data/
+!data/.gitkeep
 
-# Saved models and outputs
+# Model checkpoints and weights
 models/
+!models/.gitkeep
+
+# Results and outputs
 results/
+!results/.gitkeep
+
+# TensorBoard logs
+runs/
+logs/
+tensorboard/
 
 # OS-specific files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+*~
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+
+# Personal notes and steps
+steps.md
+STEPS.md
+notes.md
+NOTES.md
+TODO.md
+todo.md
+personal/
+scratch/
+READY_FOR_GIT.md
+GIT_GUIDE.md
+PROJECT_COMPLETE.md
+STAGE1_COMPLETE.md
+structure.md
+# Claude AI artifacts
+.claude/
+
+# Environment files with secrets
+.env
+.env.local
+secrets.yaml
+config.local.yaml
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation build
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution
+*.egg
+*.whl
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Large checkpoint files (keep small test models if needed)
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+!*_small.pth
+!*_demo.pth
+
+# Medical imaging files (except small test samples)
+*.nii.gz
+*.nii
+*.dcm
+*.dicom
+!*_sample.nii.gz
+!*_test.nii.gz
+
+# Quantum circuit files (large)
+*.qasm
+*.qpy
+!*_demo.qasm
+
+# Backup files
+*.backup
+*~
+
+# Profiling
+*.prof
+*.lprof
+
+# Training artifacts
+wandb/
+mlruns/
+lightning_logs/
+
+# Qiskit specific
+.qiskit/
+qiskit.log
+
+# Large sample files
+samples/
+generated_samples/
+predictions/
+
+# Temporary notebooks
+Untitled*.ipynb
+untitled*.ipynb
+test_*.ipynb
+scratch_*.ipynb
+
+# Project specific large files
+*.npz
+*.npy
+!*_demo.npy
+!*_sample.npy
